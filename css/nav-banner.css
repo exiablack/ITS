@@ -1,0 +1,164 @@
+h1.banner
+{
+	margin: 0;
+	padding: 0;	
+	border: 0;	
+	font: inherit;	
+	vertical-align: baseline;
+	
+}
+.header {
+    text-align: center;
+    height: 200px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+header {
+    height: 200px;
+   background: url('../resources/blackwood.jpg')no-repeat center center fixed;
+       -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   background-color:#F0F0F0;
+    border:1px solid #CCC;
+    border-radius: 0px;
+    width: 100%;
+    margin: 0px auto;
+        top: 0px;
+            position: fixed;
+    text-align: center;
+    font-size: 72px;
+    line-height: 230px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px red;
+    font-family: Old English Text MT;
+          // set animation
+          -webkit-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+}
+header.sticky {
+           /* background-image: url(resources/banner2.png); */
+            background-color: #F0F0F0;
+            font-size: 24px;
+            height: 0px; 
+            width: 100%;
+            margin: 0px auto;
+            text-align: left;
+            padding-left: 20px;
+            color: white;
+}
+nav
+{
+
+    z-index: 999999;
+    width:100%;
+    height: 50px;
+    margin: 200px auto;
+    // set animation
+            -webkit-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+}
+nav.sticky
+{
+    z-index: 999999;
+    height: 50px; 
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+    
+}
+.nav-cont
+{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.navi
+{
+    font: bold 20px Perpetua;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+/*    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);*/
+}
+.navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navi li {
+    float: left;
+}
+
+.navi li a {
+    display: block;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.navi li a:hover:not(.active) {
+    background-color: white;
+    text-shadow: 2px 2px 8px white;
+    color: black;
+}
+.navi .account li {
+    float: right;
+}
+
+.navi ul li button
+{
+    width: 170px;
+    font: bold 18px Perpetua;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: block;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.navi .account li a {
+    display: block;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.navi ul li ul li{
+    width: 150px;
+    display: none;
+    text-align: left;
+    background: #f077ad;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navi ul li:hover ul li{
+
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    display: block;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/*HAAHAHAHAHHHHA*/
+

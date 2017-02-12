@@ -1,0 +1,195 @@
+.content-packages
+{
+    width:960px;
+    height: 3500px;
+    margin: 303px auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+}
+.h3-pkg
+{
+    font-family: Perpetua;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 5px black;
+}
+.set-box
+{
+    width: 450px;
+    height: 380px;
+background: #eee;
+  background: rgba(250, 250, 250, 0.8);
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.h2-pkg
+{
+    font-family: Poor Richard;
+    color: black;
+    text-shadow: 2px 2px white;
+    text-align: center;
+    padding-top: 15px;
+
+}
+.p-pkg
+{
+    font-family: Vrinda;
+    padding-top: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.pkg-includes
+{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 920px;
+    height: 250px;
+    margin-left: 20px;
+background: #eee;
+  background: rgba(250, 250, 250, 0.8);
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+    
+}
+.pkg-includes h2
+{
+    font-family: Poor Richard;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+.pkg-includes p
+{
+    font-family: Vrinda;
+    text-align: center;
+}
+.pkg-optional
+{
+    margin-top: 30px;
+    width: 920px;
+    height: 290px;
+    margin-left: 20px;
+    z-index: -10;
+   background: #eee;
+  background: rgba(250, 250, 250, 0.8);
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.pkg-optional h2
+{
+    font-family: Poor Richard;
+    text-align: center;
+    padding-top: 30px;
+}
+.pkg-optional h4
+{
+    font-family: Vrinda;
+    margin-left: 20px;
+}
+.pkg-optional p
+{
+    font-family: Vrinda;
+    margin-left: 20px;
+}
+
+.pkg-optional-mini
+{
+    margin: 0px;
+    width: 445px;
+    height: 100px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.pkg-optional-mini p
+{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+}
+.pkg-amenities
+{
+    margin-top: 30px;
+    width: 920px;
+    height: 500px;
+    margin-left: 20px;
+    z-index: -10;
+    background: #eee;
+  background: rgba(250, 250, 250, 0.8);
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.pkg-amenities h2
+{
+    font-family: Poor Richard;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.pkg-amenities h3
+{
+    font-family: Poor Richard;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+.pkg-amenities p
+{
+    font-family: Vrinda;
+    text-align: center;
+
+}
+.header-pkg
+{
+    font-family: Bell MT;
+
+    text-align: center;
+    padding: 50px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+.back-to-top
+{
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,205 @@
+.content-about{
+    width:960px;
+    height: 1550px;
+    margin: 303px auto;
+    margin-bottom: 0px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+}
+.about-box
+{
+
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 920px;
+    height: 500px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+
+}
+.h2-about
+{
+    font-family: Poor Richard;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.p-about
+{
+    color: white;
+    text-shadow: 2px 2px 7px black;
+    font-family: Vrinda;
+    font-size: 20px;
+    text-indent: 15px;
+    text-align: justify;
+    padding: 5px 350px 10px 50px;
+}
+.img-about
+{
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 25px;
+    border-radius: 12px;
+}
+.map
+{
+    float: left;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.contact-us
+{
+    float: left;
+    border-radius: 10px;
+    width: 440px;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+    line-height: 10px;
+}
+.contact-head
+{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: Poor Richard;
+    text-align: center;
+    padding-top: 10px;
+}
+.contact-label
+{
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: Vrinda;
+    padding-top: 8px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px;
+}
+.contact-details
+{   line-height: 0px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: Vrinda;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+.footer
+{
+    width:973px;
+    height: 400px;
+    margin: 303px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* Fallback for web browsers that doesn't support RGBa */
+   /* border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3); */
+}
+.footer-box
+{
+    float: left;
+    width: 310px;
+    height: 350px;
+    margin: 300px auto;
+    margin-left: 5px;
+    margin-right: 6px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+}
+.payment-box
+{
+    float: left;
+    width: 637px;
+    height: 350px;
+    margin: 300px auto;
+    margin-left: 5px;
+    margin-right: 6px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+}
+.footer-p
+{
+    text-indent: 15px;
+    color: white;
+    line-height: 25px;
+    text-shadow: 2px 2px 5px black;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    text-align: justify;
+}
+.img-x
+{
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    float: left;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+.footer-txt
+{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: Poor Richard;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.payment-img
+{
+    height: 120px;
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+}
+.copyright
+{
+    float: left;
+    width: 960px;
+    height: 50px;
+    margin: 300px auto;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+     border-radius: 0px 0px 10px 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+
+}
+.copyright-txt
+{
+    font-style: Times New Roman;
+    text-align: center;
+    padding: 0px;
+    font-size: 15px;
+}

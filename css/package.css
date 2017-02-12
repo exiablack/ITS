@@ -1,0 +1,166 @@
+.content-packages
+{
+    width:960px;
+    height: 3450px;
+    margin: 303px auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+}
+.h3-pkg
+{
+    font-family: Perpetua;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none
+    text-shadow: 2px 2px 9px black;
+}
+.set-box
+{
+    border-radius: 10px;
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.h2-pkg
+{
+    font-family: Poor Richard;
+    color: black;
+    text-shadow: 2px 2px white;
+    text-align: center;
+    padding-top: 15px;
+
+}
+.p-pkg
+{
+    font-family: Vrinda;
+    padding-top: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.pkg-includes
+{
+    border-radius: 10px;
+    margin-top: 790px;
+    width: 920px;
+    height: 250px;
+    margin-left: 20px;
+    background-color: white;
+    
+}
+.pkg-includes h2
+{
+    font-family: Poor Richard;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+.pkg-includes p
+{
+    font-family: Vrinda;
+    text-align: center;
+}
+.pkg-optional
+{
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 920px;
+    height: 290px;
+    margin-left: 20px;
+    background-color: white;
+    z-index: -10;
+}
+.pkg-optional h2
+{
+    font-family: Poor Richard;
+    text-align: center;
+    padding-top: 30px;
+}
+.pkg-optional h4
+{
+    font-family: Vrinda;
+    margin-left: 20px;
+}
+.pkg-optional p
+{
+    font-family: Vrinda;
+    margin-left: 20px;
+}
+
+.pkg-optional-mini
+{
+    margin: 0px;
+    width: 445px;
+    height: 100px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.pkg-optional-mini p
+{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+}
+.pkg-amenities
+{
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 920px;
+    height: 500px;
+    margin-left: 20px;
+    background-color: white;
+    z-index: -10;
+}
+.pkg-amenities h2
+{
+    font-family: Poor Richard;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.pkg-amenities h3
+{
+    font-family: Poor Richard;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+.pkg-amenities p
+{
+    font-family: Vrinda;
+    text-align: center;
+
+}
+.header-pkg
+{
+    font-family: Bell MT;
+
+    text-align: center;
+    padding: 50px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+.back-to-top
+{
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}

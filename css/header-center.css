@@ -1,0 +1,129 @@
+body{
+    margin:0px;
+    background: url('../resources/ship.jpg') no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	line-height: 1;
+}
+/*margin of default content 303px */
+
+
+.content {
+    width:960px;
+    height: 2000px;
+    padding-bottom: 0px;
+    margin: 303px auto;
+    margin-bottom: 0px;
+    /* Fallback for web browsers that doesn't support RGBahttp://www.pornhub.com/view_video.php?viewkey=ph56fc900618040 */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+}
+
+
+.index-box
+{
+    border-radius: 0px;
+    margin-top: 0px;
+    width: 960px;
+    height: 400px;
+    margin-left: 0px;
+    background-color: none;
+}
+.index-img-box
+{
+    float: left;
+    margin-top: 30px;
+    border-radius: 12px;
+    height: 340px;
+    width: 400px;
+    margin-left: 20px;
+    background-color: white;
+}
+.txt-img
+{
+   
+    font-family: Vivaldi;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-decoration-style: solid;
+    margin-top: 10px;
+}
+.index-desc-box
+{
+    float: left;
+    margin-top: 50px;
+    height: 300px;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    background-color: none;
+    border-radius: 12px;
+     border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+    
+}
+.txt-desc
+{
+    color: white;
+    text-shadow: 2px 2px 7px black;
+    font-family: Vrinda;
+    font-size: 18px;
+    text-indent: 15px;
+    text-align: justify;
+    padding: 10px 15px 10px 15px;
+}
+.index-img
+{
+    margin-bottom: 0px;
+    border-radius: 12px 12px 0px 0px;
+    height: 280px;
+    width: 400px;
+}
+.submit
+{
+    font-family: Poor Richard;
+    font-size: 20px;
+    width:180px;
+    height: 46px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    transition: all 0.3s ease-in-out;
+    padding: 0px 0px 0px 0px;
+    margin: 15px 160px 0px 160px;
+}
+        
+.submit:hover
+{
+    background: white;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.big-title
+{
+    font-family: Vivaldi;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.legend
+{
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+    color: red;
+}

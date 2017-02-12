@@ -1,0 +1,133 @@
+.content-login
+{
+	width:960px;
+    height: 600px;
+    padding-bottom: 0px;
+    margin: 303px auto;
+    margin-bottom: 0px;
+    /* Fallback for web browsers that doesn't support RGBahttp://www.pornhub.com/view_video.php?viewkey=ph56fc900618040 */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+}
+.login-box
+{
+	width: 500px;
+	height: 300px;
+	margin-left: 230px;
+	margin-top: 20px;
+/*	background-color: white;*/
+
+	font: 10px/18px 'Lucida Grande', Arial, sans-serif;
+  color: #666;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.25);
+  background: #eee;
+  background: rgba(250, 250, 250, 0.8);
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.icon-user
+{
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-left: 50px;
+	margin-top: 45px;
+}
+.icon-pass
+{
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-left: 50px;
+	margin-top: -10px;
+}
+.icon-login
+{
+	float: left;
+	height: 45px;
+	width: 50px;
+	margin-left: 10px;
+	margin-top: -12px;
+	margin-right: -40px;
+}
+.username
+{
+	margin-left: 100px;
+	margin-top: 10px;
+	padding-top: 50px;
+	color: white;
+	font-family: Poor Richard;
+    font-size: 20px; 
+    text-shadow: 2px 2px 5px black;
+}
+.password
+{
+	margin-left: 100px;
+	margin-top: 0px;
+	padding: 0px;
+	color: white;
+	font-family: Poor Richard;
+    font-size: 21.5px;
+    text-shadow: 2px 2px 5px black; 
+}
+.tField
+{
+	font-family: Poor Richard;
+    font-size: 20px;
+    height: 35px;
+    background: #fcfcfc;
+    border:1px solid #cfd8ea;
+
+    border-radius: 3px;
+    padding: 0px 0px 0px 10px;
+    margin: -5px 0px 0px 0px;
+}
+.login-btn
+{
+    font-family: Poor Richard;
+    font-size: 20px;
+    color: white;
+    width:180px;
+    margin-left: 185px;
+    height: 46px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 2px 5px black;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 0px 0px 10px;
+}
+        
+.login-btn:hover
+{
+    background: white;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+    transition: all 0.3s ease-in-out;
+}
+.note_payment
+{
+    width: 484px;
+    height: 20px;
+    border: 1px solid red;
+    margin-left: 0px;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-style: italic;
+    background-color: white;
+}
+.note_payment2
+{
+    width: 484px;
+    height: 20px;
+}

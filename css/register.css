@@ -1,0 +1,110 @@
+.content-register
+{
+	width:960px;
+    height: 600px;
+    padding-bottom: 0px;
+    margin: 303px auto;
+    margin-bottom: 0px;
+    /* Fallback for web browsers that doesn't support RGBahttp://www.pornhub.com/view_video.php?viewkey=ph56fc900618040 */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+}
+.register-box
+{
+	width: 500px;
+	height: 350px;
+	margin-left: 230px;
+	margin-top: 20px;
+/*	background-color: white;*/
+
+	border-radius: 10px;
+	background: linear-gradient(135deg, rgba(255,255,255,0.12) 0%,rgba(241,241,241,0.56) 50%,rgba(225,225,225,0.57) 51%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   /*background: linear-gradient(135deg, rgba(183,222,237,0) 0%,rgba(113,206,239,0.5) 50%,rgba(33,180,226,0.51) 51%,rgba(183,222,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+}
+label
+{
+    font-family: Poor Richard;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    float: left;
+    padding-left: 0px;
+
+}
+#note{
+    color: red;
+    text-shadow: 2px 2px 8px black;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin: 15px 0px 30px 15px;
+}
+
+#firstname{
+margin: 0px 30px 0px 15px;
+}
+#lastname{
+margin: 0px 31px 0px 15px;
+}
+     
+#username{
+margin: 0px 28px 0px 15px;
+}
+     
+#password{
+margin: 0px 35px 0px 15px;
+}
+#email{
+margin: 0px 60px 0px 15px;
+}
+.tField
+{
+    font-family: Poor Richard;
+    font-size: 18px;
+    height: 35px;
+    background: #fcfcfc;
+    border:1px solid #cfd8ea;
+
+    border-radius: 3px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 5px 0px;
+}
+
+
+.register-btn
+{
+    font-family: Poor Richard;
+    font-size: 20px;
+    width:180px;
+    height: 46px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    transition: all 0.3s ease-in-out;
+    padding: 0px 0px 0px 0px;
+    margin-left: 123px;
+}
+        
+.register-btn:hover
+{
+    background: white;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+    transition: all 0.3s ease-in-out;
+}
+.val_error
+{   
+    padding: 0px 0px 0px 0px;
+    margin: -30px 0px 0px 340px;
+    position: absolute;
+    color: red;
+}
+

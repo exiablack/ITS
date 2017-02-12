@@ -1,0 +1,288 @@
+body{
+    font-size: 12px;
+}
+.content-reservation
+{
+    width:1000px;
+    height: 2000px;
+    padding-bottom: 0px;
+    margin: 303px auto;
+    margin-bottom: 0px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    height: 1500px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+
+}
+
+.topright {
+ float: right;
+ cursor: pointer;
+ font-size: 20px;
+}
+
+.topright:hover {color: red;}
+
+.temp-box
+{
+    width:960px;
+    height: 10px;
+    margin: 303px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    border-radius: 0px 0px 12px 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+}
+.reservation-box
+{
+    margin-top: 30px;
+    width: 920px;
+    height: 940px;
+    margin-left: 20px;
+    border-radius: 4px;
+    background: rgba(250, 250, 250, 0.8);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+}
+label
+{
+    font-family: Poor Richard;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    float: left;
+    padding-left: 15px;
+
+}
+#new_optional select
+{
+    font-family: Poor Richard;
+            font-size: 18px;
+            height: 35px;
+            background: #fcfcfc;
+            border:1px solid #cfd8ea;
+
+            border-radius: 3px;
+            padding: 0px 0px 0px 10px;
+            margin: 0px 0px 5px 0px;
+}
+#txtDate1
+{
+    background-image: url(../resources/calender.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 5px;
+}
+ #txtDate2
+{
+    background-image: url(../resources/calender.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 5px;
+}    
+        .tField, #eventtype, #menu, #starttime, #endtime{
+            font-family: Poor Richard;
+            font-size: 18px;
+            height: 35px;
+            background: #fcfcfc;
+            border:1px solid #cfd8ea;
+
+            border-radius: 3px;
+            padding: 0px 0px 0px 10px;
+            margin: 0px 0px 5px 0px;
+    }     
+        
+        .val_error{
+            padding: 0px 0px 0px 0px;
+            margin: -30px 0px 0px 400px;
+            position: absolute;
+            color: red;
+        }
+
+        .info1{
+            border: 7px solid windowframe;
+            margin: 10px 0px 10px 0px;
+            padding: 20px 0px 20px 20px;
+            height: 600px;
+        }
+            
+        .title{
+            font-size: 30px;
+        }
+        
+        #title{
+            font-size: 20;
+            font-family: calibri;
+        }
+        
+        h4{
+            text-align: center;
+            margin: -25px 0px 0px 0px;
+            padding: 0px 0px 0px 150px;
+            color: red;
+        }
+   
+.reserve-label
+{
+    font-family: Poor Richard;
+    color: black;
+    text-shadow: 2px 2px white;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+}
+.star
+{
+    margin: 0;
+    font-size: 20px;
+    padding-right: 45px;
+    float: right;
+    color: red;
+}
+#note{
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin: 15px 0px 30px 15px;
+}
+/*CUSTOMER INFORMATION*/
+#lastname1{
+margin: 0px 55px 0px 15px;
+}
+#firstname1{
+margin: 0px 55px 0px 15px;
+}
+     
+     
+#contact1{
+margin: 0px 48px 0px 15px;
+}
+     
+#birthdate{
+margin: 0px 60px 0px 15px;
+}
+     
+#number1{
+margin: 0px 9px 0px 15px;
+}
+     
+#street1{
+margin: 0px 86px 0px 15px;
+}
+     
+#barangay1{
+margin: 0px 60px 0px 15px;
+}
+     
+#city1{
+margin: 0px 97px 0px 15px;
+}
+
+/* EVENT INFORMATION*/
+#date1{
+margin: 0px 87px 0px 15px;
+}
+     
+#time{
+margin: 0px 35px 0px 15px;
+}
+#timeend{
+margin: 0px 40px 0px 15px;
+}
+     
+#eventType1{
+margin: 0px 45px 0px 15px;
+} 
+#pax1{
+margin: 0px 22px 0px 15px;
+}
+     
+#venue1{
+margin: 0px 75px 0px 15px;
+}
+
+     
+#motif1{
+margin: 0px 82px 0px 15px;
+}
+
+.btn{
+            text-align: center;
+            font-size: 20px;
+            width:200px;
+            height: 50px;
+            font-family: Poor Richard;
+            text-shadow: 0 1px rgba(255, 255, 255, 0.25);
+            background: #eee;
+            background: rgba(250, 250, 250, 0.8);
+            border-radius: 4px;
+            background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+            background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+            background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+            -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+            box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+           
+            margin: 10px 10px 50px 650px;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .btn:hover{
+            background: white;
+            color: black;
+            transition: all 0.3s ease-in-out;
+        }
+

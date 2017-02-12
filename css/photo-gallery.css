@@ -1,0 +1,58 @@
+#cont-gallery
+{
+    width:960px;
+    height: 2000px;
+    padding-bottom: 0px;
+    margin: 303px auto;
+    margin-bottom: 0px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.3);
+}
+
+#cont-gallery ul{
+    list-style-type: none;
+}
+
+#cont-gallery li{
+    float: left;
+    width: 200px;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#cont-gallery img{
+    border-radius: 8px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;/*
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);
+    -o-filter: blur(2px);*/
+    
+    border: 1px solid #000000;
+}
+
+#cont-gallery img:hover{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -ms-filter: blur(0px);
+    -o-filter: blur(0px);
+    
+    transform: translateZ(25px) rotate(2deg);
+    border: 1px solid #000000;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5)
+}
