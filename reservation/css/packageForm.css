@@ -1,0 +1,242 @@
+
+label
+{
+    font-family: Poor Richard;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    float: left;
+    padding-left: 15px;
+
+}
+
+.tField, #eventtype, #menu, #time1, #single {
+			font-family: Poor Richard;
+            font-size: 18px;
+            height: 35px;
+            margin: 0px 0px 5px 0px;
+            cursor: pointer;
+            background: #fcfcfc;
+            border:1px solid #cfd8ea;
+            border-radius: 3px;
+            padding: 0px 0px 0px 10px;
+	}
+
+#menu
+{
+	margin: 5px 0px 0px 10px;
+}
+#text
+{
+    padding-right: 20px;
+    color: black;
+}
+#text2
+{
+    padding-right: 20px;
+    color: white;
+}
+.menupax{
+    padding: 6px;
+}
+
+.box-pax
+{
+    margin: 20px 0px 10px 50px;
+    height: 372px;
+    width: 400px;
+    border-radius: 4px;
+    background: rgba(250, 250, 250, 0.8);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+}
+ul.tabs1 {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+ul.tabs1 li {
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+
+}
+.MENUPACKAGE
+{
+    margin: 20px 0px 10px 20px;
+    height: 500px;
+    width: 550px;
+    border-radius: 4px;
+    background-color: #F0F0F0;
+}
+
+.chkBox
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.box-pax2
+{
+    margin: 20px 0px 10px 50px;
+    height: 190px;
+    width: 400px;
+    border-radius: 4px;
+    background: rgba(250, 250, 250, 0.8);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.box-pax-optional
+{
+    margin: 50px 0px 10px 20px;
+    height: 350px;
+    width: 600px;
+    border-radius: 4px;
+    background-color: white;
+}
+.price-box
+{
+    float: right;
+    margin-right: 15px;
+    margin-top: 20px;
+    height: 350px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: white;
+
+}
+
+.price-box label
+{
+     margin-top: 10px;
+    margin-left: 10px;
+}
+.totalprice
+{
+    padding-left: 5px;
+    color: black;
+}
+.total-pax
+{
+    margin-top: -10px;
+    padding-left: 5px;
+    padding: 5px;
+    background-color: rgb(255, 154, 53);
+    color: black;
+    font-size: 15px;
+}
+.total-pax-price
+{
+    margin-top: -10px;
+    padding-left: 5px;
+    padding: 5px;
+    background-color: rgb(255, 154, 53);
+    color: black;
+    font-size: 15px;
+}
+.total-adds
+{
+    margin-top: -10px;
+    padding-left: 5px;
+    padding: 5px;
+    background-color: rgb(255, 154, 53);
+    color: black;
+    font-size: 15px;
+}
+.total-
+{
+    margin-top: -10px;
+    padding-left: 5px;
+    margin-bottom: -10px;
+    padding: 5px;
+    background-color: rgb(255, 154, 53);
+    color: black;
+    font-size: 15px;
+}
+#optional-txt1,#optional-txt2,#optional-txt3,#optional-txt4 
+{
+     line-height: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+.pax-txt, .pax-price, .total-txt, .total-p
+{
+    line-height: 10px;
+	text-align: center;
+    font-size: 15px;
+}
+
+
+.box-pax table
+{
+    font-size: 17px;
+	width:100%;
+	background-color:#F0F0F0;
+	   border-radius: 4px;
+}
+
+.box-pax table td
+{
+	background-color:#FFFFFF;
+}
+
+.box-pax2 table
+{
+    font-size: 17px;
+    width:100%;
+    background-color:#F0F0F0;
+       border-radius: 4px;
+}
+
+.box-pax2 table td
+{
+    background-color:#FFFFFF;
+}
+.tabcontentPax table
+{
+    font-size: 15px;
+    width:100%;
+    background-color:#F0F0F0;
+       border-radius: 4px;
+}
+
+.tabcontentPax table td
+{
+    background-color:#FFFFFF;
+}
+.box-pax-optional table
+{
+    font-size: 15px;
+    width:100%;
+    background-color:#F0F0F0;
+       border-radius: 4px;
+}
+
+.box-pax-optional table td
+{
+    background-color:#FFFFFF;
+}
+.boxtotal
+{
+    margin-top: 0px;
+    font-size: 15px;
+    width: 296px;
+    text-align: center;
+}
